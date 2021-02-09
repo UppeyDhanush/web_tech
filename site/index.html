@@ -1,35 +1,120 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title> RESUME </title>
-</head>
+<style>
+.b{
+background-color:white;
+}
+.itc{
+background-color:slateblue;
+}
+.dsp{
+background-color:yellow;
+}
+.cslab{
+background-color:blue;
+}
+.ertos{
+background-color:green;
+}
+.lunch{
+background-color:black;
+}
+.cs{
+background-color:orange;
+}
+.dn{
+background-color:tomato;
+}
+.dnlab{
+background-color:violet;
+}
+.wt{
+background-color:pink;
+}
+tr td{
+color:red;
+text-align:center;
+width:220px;
+}
+tr th{
+text-align:center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
 <body>
 
-	<body style="background-color: lightpink;">
-	<h1 style="text-align: center"> UPPEY DHANUSH VENKAT</h1>
-	<address style="text-align: center">National institute of technology<br>
-	Warangal<br>
-    9133214888<br>
-    <a href="mailto:uppe.dhanush@gmail.com" target="_blank">uppe.dhanush@gmail.com</a><br>
-    </address>
-    <hr>
+<h2 style="text-align:center;">ECE-TimeTable</h2>
 
-    <p style="color: blue"> SKILLS </p>
-    <p><b>-Good knowledge in c++,mathlab,Verilog.</b></p>
-    <p><b>-Basics of Arduino, python(Numpy) and vpython.</b></p>
-
-    <p style="color: blue"> EXPERIENCE </p>
-    <p><b>Food and Health club,Nitw -Executive Member</b><br>-Planned and organised events with team.</p>
-    <p><b>National cadet corps, Telangana division - cadet</b><br>-Active participation in the programs conducted as a part of <abbr title="National cadet corps">NCC</abbr></p>
-
-    <p style="color: blue"> EDUCATION </p>
-    <p><b>NITW,Warangal-<abbr title="Bachelor of Technology">B.Tech<abbr></b><br>-Electronics and communication Engineering.<br> -Up to data CGPA 7.64</p>
-    <p><b>SRI CHAITANYA, Vijayawada- Intermediate</b><br>-Passed out with 98% .</p>
-
-    <p style="color: blue;"> PHOTO </p>
-    <img src="C:\Users\upped\Pictures\Screenshots\me.png" alt="this is my photo" width="184" height="160">
+<table>
+  <tr>
+    <th>Time/Day</th>
+    <th>8-9 am</th>
+    <th>9-10 am</th>
+    <th>10-11 am</th>
+    <th>11.30-12.30 pm</th>
+    <th>12.30-1.30 pm</th>
+    <th>2-3 pm</th>
+    <th>3-4 pm</th>
+  </tr>
+  <tr>
+    <th>Mon</th>
+    <td class="b">-</td>
+    <td class="itc">ITC</td>
+    <td colspan="2" class="dsp">DSP</td>
+    <td rowspan="5" class="lunch">Lunch-Break</td>
+    <td colspan="2" class="cslab">Communication system Lab</td>
+  </tr>
+  <tr>
+    <th>Tue</th>
+    <td class="cs">CS</td>
+    <td class="itc">ITC</td>
+    <td colspan="2" class="dn">DN</td>
+    <td colspan="2" class="wt">LPVLSI/WT</td>
+  </tr>
+  <tr>
+    <th>Wed</th>
+    <td class="b">-</td>
+    <td class="b">-</td>
+    <td class="cs">CS</td>
+    <td class="dsp">DSP</td>
+    <td colspan="2" class="dnlab">DN Lab</td>
+  </tr>
+  <tr>
+    <th>Thu</th>
+    <td>-</td>
+    <td class="dn">DN</td>
+    <td class="itc">ITC</td>
+    <td class="cs">CS</td>
+    <td class="ertos">ERTOS</td>
+    <td class="wt">LPVLSI/WT</td>
+  </tr>
+  <tr>
+    <th>Fri</th>
+    <td class="b">-</td>
+    <td colspan="3" class="ertos">ERTOS(9.30 to 11.30)</td>
+    <td class="b"></td>
+    <td class="b"></td>
+  </tr>
+  <tr>
+    <th>Sat</th>
+    <td colspan="7">Refer the Academic Calander</td>
+  </tr>
+</table>
 
 </body>
 </html>
