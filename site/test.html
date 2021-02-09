@@ -1,9 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hi</title>
+<style>
+tr td{
+color:red;
+text-align:center;
+width:220px;
+}
+tr th{
+text-align:center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 </head>
 <body>
-<h1>hello<h1>
+
+<h2 style="text-align:center;">ECE-TimeTable</h2>
+
+<table>
+  <tr>
+    <th>Time/Day</th>
+    <th>8-9 am</th>
+    <th>9-10 am</th>
+    <th>10-11 am</th>
+    <th>11.30-12.30 pm</th>
+    <th>12.30-1.30 pm</th>
+    <th>2-3 pm</th>
+    <th>3-4 pm</th>
+  </tr>
+  <tr>
+    <th>Mon</th>
+    <td>-</td>
+    <td>ITC</td>
+    <td colspan="2">DSP</td>
+    <td rowspan="5" style="background-color:black;">Lunch-Break</td>
+    <td colspan="2">Communication system Lab</td>
+  </tr>
+  <tr>
+    <th>Tue</th>
+    <td>CS</td>
+    <td>ITC</td>
+    <td colspan="2">DN</td>
+    <td colspan="2">LPVLSI/WT</td>
+  </tr>
+  <tr>
+    <th>Wed</th>
+    <td>-</td>
+    <td>-</td>
+    <td>CS</td>
+    <td>DSP</td>
+    <td colspan="2">DN Lab</td>
+  </tr>
+  <tr>
+    <th>Thu</th>
+    <td>-</td>
+    <td>DN</td>
+    <td>ITC</td>
+    <td>CS</td>
+    <td>ERTOS</td>
+    <td>LPVLSI/WT</td>
+  </tr>
+  <tr>
+    <th>Fri</th>
+    <td>-</td>
+    <td colspan="3">ERTOS(9.30 to 11.30)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Sat</th>
+    <td colspan="7">Refer the Academic Calander</td>
+  </tr>
+</table>
+
 </body>
 </html>
